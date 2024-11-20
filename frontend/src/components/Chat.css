@@ -1,0 +1,97 @@
+:root {
+  --background-color: lightblue; /* Beige color */
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user {
+  text-align: right;
+}
+
+.bot {
+  text-align: left;
+}
+
+.message-content {
+  margin-top: 10px;
+}
+
+.exercise-list, .video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.exercise-item, .video-item {
+  width: 280px;
+}
+
+.exercise-gif {
+  max-width: 100%;
+  height: auto;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-text-input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.chat-send-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.fitness-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fitness-option {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.fitness-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.fitness-text-input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.fitness-submit {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
